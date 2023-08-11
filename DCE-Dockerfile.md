@@ -14,7 +14,7 @@ Secondly, you can extract a tar file from the source directly into the destinati
 
 - HEALTHCHECK instruction Docker allows us to tell the platform on how to test that our application is healthy.
 
-** Document - HealtCheck Document Resource **
+**Document - HealtCheck Document Resource**
 
 https://docs.docker.com/engine/reference/builder/
 
