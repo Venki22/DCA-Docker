@@ -4,8 +4,8 @@ Docker provides restart plolicies to control whether your containers start autom
 
 We can specify the restart policy by using the --restart flag with docker run command.
 
-| Flag            | LastName      |   
-| --------------- | ------------- | 
+| Flag            | Description      |   
+| --------------- | -----------------| 
 | `no`            | Do not automatically restart the container.(the default)         | 
 | `on-failuer`    | Restart the container if it exits due to an error, which manifests as a non-zero exit code.         | 
 | `unless-stopped`| Restart the container unless it is explicitly stopped or Docker itself is stopped or restarted.              |

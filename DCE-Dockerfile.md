@@ -1,21 +1,20 @@
 ### Dockerfile
-A Dockerfile must start with a FROM instruction
+- A Dockerfile must start with a FROM instruction
 
-COPY takes in an src and destination. It only lets you copy in a local file or directory from your host
+- COPY takes in an src and destination. It only lets you copy in a local file or directory from your host
 
-ADD lets you do that too, but it also supports 2 other sources.
+- ADD lets you do that too, but it also supports 2 other sources.
  
-First, you can use a URL instead of a local file/directory. 
+- First, you can use a URL instead of a local file/directory. 
 Secondly, you can extract a tar file from the source directly into the destination
 
-The EXPOSE instruction informs Docker that the container listens on the specified network ports at runtime.
+- The EXPOSE instruction informs Docker that the container listens on the specified network ports at runtime.
 
-The EXPOSE instruction does not actually publish the port. 
+- The EXPOSE instruction does not actually publish the port. 
 
-HEALTHCHECK instruction Docker allows us to tell the platform on how to test that our application is healthy.
+- HEALTHCHECK instruction Docker allows us to tell the platform on how to test that our application is healthy.
 
-Document - HealtCheck Document Resource
-Documentation Referred:
+** Document - HealtCheck Document Resource **
 
 https://docs.docker.com/engine/reference/builder/
 
