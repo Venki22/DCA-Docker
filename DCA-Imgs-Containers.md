@@ -1,16 +1,17 @@
+
 ### Child commands for Docker image
-docker image build
-docker image pull
-docker image inspect
-docker image history
-docker image load
-docker image save
-docker image ls
-docker image push
-docker image rm
-docker image tag
-docker image prune
-docker image import
+- docker image build
+- docker image pull
+- docker image inspect
+- docker image history
+- docker image load
+- docker image save
+- docker image ls
+- docker image push
+- docker image rm
+- docker image tag
+- docker image prune
+- docker image import
 
 ### Docker image
 Docker Image is file which contains all the neccessary dependency and configurations which are required to run an applicaton.
@@ -107,6 +108,8 @@ docker image prune -a
 - [DCA-Notes-1](https://docs.google.com/document/d/1LsQyB_9DlKkA2CfFgF0zkRclfO9lZT9ZoIHcANWzvxQ/edit)
 
 - [DCA-Notes-2](https://docs.google.com/document/d/1n60n6MymydOjdXboqX1RCP-xklkjiJ-ClS2fjJTwsCY/edit#heading=h.zbd2vonu6n3)
+
+- [DCA-Notes-3](https://docs.google.com/document/d/1eio9rL0doJGAwgrw-45V4qv5rfxIsFsE1rlD2aJxpuw/edit)
 
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links
 
