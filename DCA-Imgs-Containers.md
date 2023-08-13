@@ -1,3 +1,17 @@
+### Child commands for Docker image
+docker image build
+docker image pull
+docker image inspect
+docker image history
+docker image load
+docker image save
+docker image ls
+docker image push
+docker image rm
+docker image tag
+docker image prune
+docker image import
+
 ### Docker image
 Docker Image is file which contains all the neccessary dependency and configurations which are required to run an applicaton.
 
