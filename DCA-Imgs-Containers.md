@@ -53,9 +53,51 @@ docker container run -d --rm --name test-container nginx ping -c10 google.com
 docker logs test-container
 docker container ps|grep test-container
 ``````
+Tagging Docker Images:
+```
+Existing docker image adding new tag
+docker tag nginx:v1 nginx1:v2
+Tag name will be same
+docker images
+docker build -t busybox:v1 .
+docker  images
+
+docker build .
+docker images
+docker tag image-id tagkey:tagvalue
+docker tag image-id nginx1:v2
+```
+
+Docker commit
+```
+
+```
+Layers of Docker images:
+```
+docker history image-id
+```
+--format:
+```
+docker image inspect nginx --format='{{.Id}}'
+docker image inspect nginx --format='{{.ContainerConfig.Hostname}}'
+```
+
+### Pruning Docker images:
+docker image prune
+
+## This will remove all images without at least one container associated to them
+docker image prune -a
+
+
 **Reference document:**
-- [DCA-Notes](https://docs.google.com/document/d/1LsQyB_9DlKkA2CfFgF0zkRclfO9lZT9ZoIHcANWzvxQ/edit)
+- [DCA-Notes-1](https://docs.google.com/document/d/1LsQyB_9DlKkA2CfFgF0zkRclfO9lZT9ZoIHcANWzvxQ/edit)
+
+- [DCA-Notes-2](https://docs.google.com/document/d/1n60n6MymydOjdXboqX1RCP-xklkjiJ-ClS2fjJTwsCY/edit#heading=h.zbd2vonu6n3)
 
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links
 
+
+
+
+https://questglobal.udemy.com/course/docker-certified-associate/learn/lecture/13507452#overview
 
