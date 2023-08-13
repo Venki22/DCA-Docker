@@ -68,7 +68,7 @@ docker container run -d --rm --name test-container nginx ping -c10 google.com
 docker logs test-container
 docker container ps|grep test-container
 ``````
-Tagging Docker Images:
+### Tagging Docker Images:
 ```
 Existing docker image adding new tag
 docker tag nginx:v1 nginx1:v2
@@ -83,26 +83,29 @@ docker tag image-id tagkey:tagvalue
 docker tag image-id nginx1:v2
 ```
 
-Docker commit
+### Docker commit
 ```
 
 ```
-Layers of Docker images:
+### Layers of Docker images:
 ```
 docker history image-id
 ```
---format:
+###  --format:
 ```
 docker image inspect nginx --format='{{.Id}}'
 docker image inspect nginx --format='{{.ContainerConfig.Hostname}}'
 ```
 
 ### Pruning Docker images:
+```
 docker image prune
+```
 
-## This will remove all images without at least one container associated to them
+### This will remove all images without at least one container associated to them
+```
 docker image prune -a
-
+```
 
 **Reference document:**
 - [DCA-Notes-1](https://docs.google.com/document/d/1LsQyB_9DlKkA2CfFgF0zkRclfO9lZT9ZoIHcANWzvxQ/edit)
