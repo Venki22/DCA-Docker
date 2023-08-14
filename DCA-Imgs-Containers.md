@@ -114,6 +114,11 @@ docker image prune -a
 
 - [DCA-Notes-3](https://docs.google.com/document/d/1eio9rL0doJGAwgrw-45V4qv5rfxIsFsE1rlD2aJxpuw/edit)
 
+- [DCA-Notes-4](https://docs.google.com/document/d/1ehPXjz7PXALFbmg02MoiECmOzAYX2eYEier--i2NMzY/edit?usp=sharing)
+
+- [DCA-Notes-5](https://docs.google.com/document/d/13xzoX5par-lln5ytgLw3TO_l0gNZm5Gg43YL2SWlbl0/edit?usp=sharing)
+
+
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links
 
 
