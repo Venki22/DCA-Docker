@@ -118,3 +118,26 @@ docker swarm unlock-key
 
 ### To rotate the key
 docker swarm unlock-key --rotate
+
+### Document - UCP Client Bundle Integration
+curl -sSL https://get.docker.com/ | sh
+docker service create --name mydemoservice ngin
+
+### Document - Changing Storage Drivers
+{
+  "storage-driver": "aufs"
+}
+
+### Documentation Link :
+https://docs.docker.com/storage/storagedriver/select-storage-driver/
+
+### Document - Bind Mounts
+docker container run -dt --name mynginx -v /root/index:/usr/share/nginx/html nginx
+
+docker container run -dt --name mynginx --mount type=bind,source=/root/index,target=/usr/share/nginx/html nginx
+
+docker container run -dt --name mynginx --mount type=bind,source=/root/index,target=/usr/share/nginx/html,readonly nginx
+
+### Logging drivers
+docker container run -dt --log-driver none --name mybusybox busybox
+
